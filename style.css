@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    
+ 
+}
+header img{
+    width: 45vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    position: sticky;
+    top: 0;
+    padding: 5vw;
+    background-color:white ;
+
+}
+header div  {
+    display:flex ;
+    flex-direction: row;
+    gap: 25px ;
+}
+header div a {
+    text-decoration: none;
+    color: grey;
+}
+header div a:hover{
+    color: #00b39b;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+section h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#00b39b;;
+}
+.text1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    gap: 2vw;
+    padding:0 8vw  ;
+
+   
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 5vw;
+    padding:0 8vw  ;
+   
+   
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw 1vw;
+    border-radius: 25px;
+    background-color:#00ccb1;
+    width: 25%;
+    border-radius: 25px;
+}
+  
+
+
+ .card img {
+    width: 50px;
+}
+.card div select {
+    background-color: transparent;
+    text-decoration:underline;
+    color: white;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw 1vw;
+    border-radius: 25px;
+    background-color:#3d83df;
+    width: 25%;
+    border-radius: 25px;
+
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw 1vw;
+    border-radius: 25px;
+    background-color:#747474;
+    width: 25%;
+    border-radius: 25px;
+
+
+}
+.partie3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5vw 0;
+   
+   
+    
+}
+.partie3 p {
+    width: 33%;
+    font-size: 1.625em;
+   
+
+    color:#00b39b ;
+    padding:0 8vw  ;
+}
+.partie3 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 45px;
+    gap: 42.1px;
+}
+.partie3 div svg {
+    fill: grey;
+}
+.partie3 div svg:hover{
+    fill: #00b39b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card4{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+   
+    align-items:center;
+    gap: 2vw;
+   
+   
+    width: 15%;
+    
+}
+
+
+.partie4{
+    background-color:#e5faf8;
+   
+
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: 100px 250px;
+    padding: 5vw;
+ 
+    
+    
+    
+}
+.card4 img {
+    width: 25px;
+}
+ 
+.partie4 img {
+    width: 25%;
+    
+}
+.couloum{
+    display: flex;
+    gap:5vw ;
+    padding:5vw 8vw;
+    flex-direction: column;
+    
+    
+
+}
+.couloum1{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+    
+    justify-content:right;
+   
+}
+.couloum2{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+    justify-content:right;
+
+}
+.partie6{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+   
+
+
+
+.para1{
+    display: flex;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.para2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 50px;
+    color:#00b39b ;
+}
+.para3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw 1vw;
+    border-radius: 25px;
+    justify-content: center;
+    
+
+    
+}
+.card6{
+    display: flex;
+    flex-direction:row;
+    
+    
+    border-radius: 25px;
+    background-color:#fff;
+    
+    border-radius: 25px;
+    justify-content: space-between;
+
+}
+.bou1{
+    background-color:#3d83df ;
+    color:white ;
+}
+.card5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.p12 img{
+    width: 340px;
+}
+.p12{
+    width: 340px;
+}
+.p13{
+    color: black;
+    padding: 20px;
+}
+.p14{
+    background-color:#3d83df ;
+    color: white;
+    width: 200px;;
+    
+}
+.p15{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 20px;
+
+}
+.p17{
+     background-color: #eef2f2 ;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding: 25px;
+     padding:0 8vw  ;
+     
+}
+    
